@@ -4,8 +4,12 @@ const app = express();
 const cors = require("cors");
 const connection = require("./config/db");
 
+const {userRouter} = require("./routes/users.routes")
+
 app.use(cors());
 app.use(express.json());
+
+app.use("/user",userRouter)
 
 app.listen(process.env.PORT, async () => {
   try {
