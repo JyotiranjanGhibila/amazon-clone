@@ -11,10 +11,15 @@ const { cartRoute } = require("./routes/cart.routes");
 app.use(cors());
 app.use(express.json());
 
-
 app.use("/user",userRouter)
 app.use("/fashion",womenclothRoute)
 app.use("/cart",cartRoute)
+
+app.get('*',(req,res)=>{
+  res.status(200).json({
+    message:'bad request'
+  })
+})
 
 app.listen(process.env.PORT, async () => {
   try {
