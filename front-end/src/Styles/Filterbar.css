@@ -1,0 +1,30 @@
+.filter__section>h3{
+ font-size: 18px;
+ font-weight: 600;
+ margin-left: 20px;
+}
+.filter__section>div{
+    margin-left: 20px;
+}
+.filter__section>div>input{
+    width: 20px;
+    height: 18px;
+}
+
+@media all and (min-width: 320px ) and (max-width: 767px){
+    .filter__section>h3{
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 8px;
+       }
+       .filter__section>div{
+           margin-left: 9px;
+       }
+       .filter__section>div>input{
+           width: 13px;
+           height: 13px;
+       } 
+       div>input+span{
+         font-size: 13px;
+       } 
+}

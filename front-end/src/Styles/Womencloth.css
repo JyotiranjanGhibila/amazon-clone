@@ -1,0 +1,130 @@
+.fashion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* position: absolute; */
+  height: 55px;
+  border-bottom: 1px solid rgb(155, 155, 155);
+}
+.fashion__cate {
+  color: #333333;
+  font-size: 14px;
+}
+.fashion__cate:hover {
+  border-bottom: 3px solid #f08804;
+  cursor: pointer;
+}
+.fashion > span:first-child {
+  font-size: 23px;
+  font-weight: 700;
+}
+.fashion > span:last-child {
+  font-size: 20px;
+  color: rgb(16, 116, 116);
+}
+.womencloth__container {
+  display: flex;
+}
+.womenfilter {
+  width: 21%;
+}
+.clothbox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 12px;
+  row-gap: 15px;
+  cursor: pointer;
+}
+.clothcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.clothdetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.clothdetails > span:first-child {
+  font-size: 19px;
+  font-weight: 650;
+}
+.clothdetails > span:nth-child(2) {
+  font-size: 16px;
+  font-weight: 500;
+}
+.clothdetails > span {
+  text-align-last: center;
+}
+.cloth__price {
+  font-size: 30px;
+}
+.cloth__price > span {
+  font-size: 15px;
+}
+.mrp {
+  text-decoration: line-through;
+}
+.pagination__section {
+  width: 20%;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 12px;
+}
+.pagination__section > button {
+  font-size: 18px;
+  cursor: pointer;
+}
+/* Responsive section */
+@media all and (min-width: 1024px) {
+  .clothbox {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .clothbox {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .womenfilter {
+    width: auto;
+  }
+  .clothbox {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .model {
+    width: 70%;
+  }
+  .clothdetails > span:first-child {
+    font-size: 12px;
+    font-weight: 650;
+  }
+  .clothdetails > span:nth-child(2) {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .cloth__price {
+    font-size: 20px;
+  }
+  .cloth__price > span {
+    font-size: 15px;
+  }
+  .pagination__section {
+    width: auto;
+  }
+  .pagination__section > span {
+    font-size: 15px;
+  }
+}
