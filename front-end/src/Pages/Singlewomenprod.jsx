@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import PlaceIcon from "@mui/icons-material/Place";
 import LockIcon from "@mui/icons-material/Lock";
 import "react-loading-skeleton/dist/skeleton.css";
-import {useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import "../Styles/Womencloth.css";
 import "../Styles/Singleprod.css";
 import { useDispatch, useSelector } from "react-redux";
@@ -10,10 +10,12 @@ import { useDispatch, useSelector } from "react-redux";
 import ReactStars from "react-stars";
 import { get_single_data } from "../Redux/Singleproduct/action";
 import axios from "axios";
+import { AuthContext } from "../Context/AuthContext";
 const Singlewomenprod = () => {
-  const navigate=useNavigate()
+  const { authState } = useContext(AuthContext);
+  const navigate = useNavigate();
   const { id } = useParams();
-  
+
   const dispatch = useDispatch();
   const singprod = useSelector((store) => store.singleprod);
   const { data } = singprod;
@@ -21,24 +23,30 @@ const Singlewomenprod = () => {
     dispatch(get_single_data(id));
   }, []);
 
-  const handleAdd=async(img,title,desc,price)=>{
-    axios.post(`http://localhost:8080/cart/add`,{
-      img:img,
-      title:title,
-      desc:desc,
-      price:price
-    },
-    {
-      headers:{
-        Authorization:localStorage.getItem("token")
-      }
-    })
-    .then((res)=>{
-      console.log("Added to the cart")
-      navigate('/user/cart')
-    })
-    .catch((err)=>{console.log("not added",err)})
-  }
+  const handleAdd = async (img, title, desc, price) => {
+    axios
+      .post(
+        `http://localhost:8080/cart/add`,
+        {
+          img: img,
+          title: title,
+          desc: desc,
+          price: price,
+        },
+        {
+          headers: {
+            Authorization: localStorage.getItem("token"),
+          },
+        }
+      )
+      .then((res) => {
+        console.log("Added to the cart");
+        navigate("/user/cart");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
 
   return (
     <>
@@ -158,9 +166,22 @@ const Singlewomenprod = () => {
                   <span> Fulfiled by Amazon</span>.
                 </span>
 
-                <button className="add_to_cart" onClick={()=>handleAdd(el.img,el.title,el.desc,el.price)}>
-                 Add To Cart
-                </button>
+                {authState.isAuth ? (
+                  <button
+                    className="add_to_cart"
+                    onClick={() =>
+                      handleAdd(el.img, el.title, el.desc, el.price)
+                    }
+                  >
+                    Add To Cart
+                  </button>
+                ) : (
+                  <button className="add_to_cart">
+                    {" "}
+                    <Link to="/user/signin">Add To Cart </Link>
+                  </button>
+                )}
+
                 <button>Buy Now</button>
                 <span>
                   <LockIcon fontSize="10" /> Secure transaction
