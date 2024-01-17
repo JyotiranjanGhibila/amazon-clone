@@ -18,6 +18,21 @@ cartRoute.get("/", authenticate, async (req, res) => {
   }
 });
 
+cartRoute.delete("/delete/:id", async (req, res) => {
+  const ItemID = req.params.id;
+
+  try {
+    const deleted = await cartModel.findByIdAndDelete({ _id: ItemID });
+    if (deleted) {
+      res.send({ success: true, message: `Item deleted` });
+    } else {
+      res.send({ success: false, message: `Error` });
+    }
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+});
+
 cartRoute.post("/add", authenticate, async (req, res) => {
   try {
     const cartItem = new cartModel(req.body);

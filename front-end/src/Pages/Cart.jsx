@@ -1,17 +1,23 @@
-import React, { memo, useEffect } from "react";
+import React, { memo, useEffect, useState } from "react";
 import Styles from "../Styles/Cart.module.css";
 
 import { get_cart_datas } from "../Redux/Cart/action";
 import { useDispatch, useSelector } from "react-redux";
+import useDeleteItem from "../hooks/useDeleteItem";
 const Cart = () => {
+  const [deleteItemId,setDeleteItemId] = useState(null);
+  const {loading,error} = useDeleteItem(deleteItemId)
   const dispatch = useDispatch();
   const cartDatas = useSelector((store) => store.cartdata);
   const { cart } = cartDatas;
 
   useEffect(() => {
     dispatch(get_cart_datas());
-  }, []);
+  }, [deleteItemId]);
 
+  const handleItemDelete = (id) => {
+    setDeleteItemId(id)
+  }
   return (
     <div className={Styles.parent__container}>
       <div>
@@ -21,6 +27,7 @@ const Cart = () => {
         </div>
         {cart.length > 0 &&
           cart?.map((el, i) => {
+            console.log("id???",el)
             return (
               <div className={Styles.Shopingcart__container} key={i}>
                 <div className={Styles.cart__box}>
@@ -40,7 +47,7 @@ const Cart = () => {
                         {el.qty}
                         <button className={Styles.qty}>+</button>
                       </span>
-                      <span>Delete</span>
+                      <span onClick={()=>handleItemDelete(el._id)}>Delete</span>
                     </div>
                     <div className={Styles.prdo__price}>
                       <span>₹ {el.price}</span>
