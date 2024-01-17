@@ -1,0 +1,88 @@
+.navbar {
+  display: flex;
+  height: 47px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #232f3e;
+  color: white;
+}
+.navbar > span {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 5px 8px 5px;
+}
+.navbar > p:nth-last-child(1) {
+  font-size: 22px;
+  font-weight: 28px;
+  padding: 3px 5px 5px 5px;
+}
+.navbar > span:hover,
+.navbar > p:hover {
+  border: 1.5px solid white;
+  cursor: pointer;
+  
+}
+
+.draw {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  border-bottom: 1px solid rgb(177, 177, 177);
+}
+.draw > p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 8%;
+  padding: 10px;
+}
+.draw > span {
+  margin-left: 8%;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+  cursor: pointer;
+}
+.draw > span:hover {
+  background-color: rgb(231, 229, 229);
+}
+@media all and (min-width: 1031px ) and (max-width: 13049px){
+  .navbar > span {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 2px 2px 4px 2px;
+  }
+  .navbar > p:nth-last-child(1) {
+    font-size: 19px;
+    font-weight: 28px;
+    padding: 3px 5px 5px 5px;
+  }
+}
+@media all and (min-width:768px ) and (max-width:1024px){
+  .navbar > span {
+    font-size: 8px;
+    font-weight: 400;
+    padding: 2px 2px 4px 2px;
+  }
+  .navbar > p:nth-last-child(1) {
+    font-size: 12px;
+    font-weight: 28px;
+    padding: 3px 5px 5px 5px;
+  }
+
+}
+@media all and (min-width:320px ) and (max-width:767px){
+  .navbar > span {
+    font-size: 8px;
+    font-weight: 400;
+    padding: 2px 2px 4px 2px;
+  }
+  .navbar > p:nth-last-child(1) {
+    font-size: 12px;
+    font-weight: 28px;
+    padding: 3px 5px 5px 5px;
+  }
+  
+  .download {
+   display: none;
+  }
+}

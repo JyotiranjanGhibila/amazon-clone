@@ -1,0 +1,921 @@
+{
+  "mob": [
+    {
+      "img": "https://m.media-amazon.com/images/I/31Oyr6W4rJL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 27% off",
+      "mobname": "Realme N55 || Buy Now"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31cQxf0GUeL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 73% off",
+      "mobname": "Branded Suitcase, Backpacks and Duffles  - American Tourister, Safari, Skybags, etc."
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31PGzEzdHIL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 67% off",
+      "mobname": "Crazy Deal on boAt Headphones and Speakers"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41oNiB-kLuL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 40% off",
+      "mobname": "iQOO 9 Pro 5G || Price Never Before @ 39990"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41R9fDKo6iL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 82% off",
+      "mobname": "India’s top smartwatches – Boat, Amazfit & more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31-3Cz0GomL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 70% off",
+      "mobname": "Bestselling JBL ANC TWS & Soundbar"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/419IdaXiS4L._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 39% off",
+      "mobname": "Grand Gaming Days - Gaming Laptops starting INR 49990 - Extra Discount on SBI Cards"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61QQtY6qtHL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 73% off",
+      "mobname": "Levi's, Allen Solly, ANNI DESIGNER & more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31pj4-G749L._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 79% off",
+      "mobname": "Jaw dropping offers on zebronics audio"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41CI6kbVamL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 39% off",
+      "mobname": "Deals on Food Products"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41bHH44x6UL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 88% off",
+      "mobname": "Made for Amazon - Clothing Bestsellers"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51y3Kfgl9tL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 64% off",
+      "mobname": "Best of Home Storage and Lighting"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51kg6MIqwgL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 66% off",
+      "mobname": "Best of Home Furnishing, Décor, Storage - Amazon Brands & more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81TBkVDGeGL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 38% off",
+      "mobname": "Bata, Hush Puppies & more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51c6EtBXVPL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 50% off",
+      "mobname": "Best Deals on Health Supplements, Multivitamins and More"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31T3mGAZLML._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 79% off",
+      "mobname": "Deals on Mobile Accessories - From Boat, GOVO & more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/613iaMC20FL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 41% off",
+      "mobname": "Cleaning Supplies"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41ZRDb8-1XL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 61% off",
+      "mobname": "Bedroom Furniture Deals from Amazon Brands & more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41L5-yoXD2L._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 28% off",
+      "mobname": "iQOO 9"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/3170aatsXlL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 51% off",
+      "mobname": "Cooking Essentials"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31m31tZyhGL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 79% off",
+      "mobname": "Oakley and more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51Pb1CBXMZL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 63% off",
+      "mobname": "Activity & Travel gears by Star and Daisy"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41EJrZlo0UL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 62% off",
+      "mobname": "Top Offers on Gaming Accessories"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31+t9zSzVML._AC_UF226,226_FMjpg_.jpg",
+      "off": "₹328 and under",
+      "mobname": "Top Offers on Pest and Outdoor Living"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31yQxnMLbKL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 50% off",
+      "mobname": "Up to 40% off on Sony Personal Audio Products"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41P1DOw+R8L._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 67% off",
+      "mobname": "Blockbuster deals on Internal SSDs & PC Components"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41m4drzDraL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 53% off",
+      "mobname": "Safety and Security"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/21pX6O-fdaL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 27% off",
+      "mobname": "Top offers on make up and beauty products"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31Fpe7fLNfL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 78% off",
+      "mobname": "Top Deals on Audio and Camera Accessories - Amazon Brand and more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51OxZrgaZoL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 71% off",
+      "mobname": "Made for Amazon -Top Deals on Shoes & Handbag"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31WDbhSKilL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 46% off",
+      "mobname": "Best Offers on V-Guard Appliances"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/91kKqnkv9jL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 53% off",
+      "mobname": "Puma, Skechers , Reebok & more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51SwORixAyL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 61% off",
+      "mobname": "Living Room Furniture Deals from Amazon Brands & more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51EhZLG6vFL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 71% off",
+      "mobname": "Best of Home Furnishing and Decor"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41gXMAK8MSL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 69% off",
+      "mobname": "Robotic vacuum cleaners & accessories"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41Fe-0uiu6L._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 46% off",
+      "mobname": "Save on Royal Interiors Furniture"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41+AltNP3WL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 65% off",
+      "mobname": "U.S. POLO ASSN., Arrow, Peter England, Adidas & more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/316Wztr9-aL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 69% off",
+      "mobname": "Accessories Days"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/417OeIt9yPL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 65% off",
+      "mobname": "Deals on Industrial Tools & Instruments"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41j4qRJ9+kL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 64% off",
+      "mobname": "Save Big On Personal Care Appliances"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51I2PO2YDoL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 50% off",
+      "mobname": "Top Deals on Pens and Notebooks"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/A1kDqJE+JxL._AC_UF226,226_FMjpg_.png",
+      "off": "Up to 71% off",
+      "mobname": "Best of Women’s Handbags and Wallets"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51o8sizHzmL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 79% off",
+      "mobname": "Best of Home Furnishing & Decor"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71j4am6AIBL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 78% off",
+      "mobname": "BIBA, Janasya, Harpa & more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/518hVO8SjJL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 76% off",
+      "mobname": "Best Selling Toys"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31aU8cYgoNS._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 60% off",
+      "mobname": "Best deal from Esplorer"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31UXcz5P0SL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 44% off",
+      "mobname": "Deals on American Micronic Products"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41X912m5pNL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 73% off",
+      "mobname": "Office & Study Room Furniture Deals from Amazon Brands & more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/91Agu-wS7HL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 26% off",
+      "mobname": "mCaffeine - India's first caffeinated brand for personal care"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31YW3+kpZQL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 67% off",
+      "mobname": "Noise Best Selling TWS"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41l+ElbORxL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 31% off",
+      "mobname": "Beverages & Breakfast essentials"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51WsXh4HLEL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 72% off",
+      "mobname": "Sports Cycles, Cardio, Yoga,Weights & More: Amazon Brands & More"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41OO12vzzjL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 63% off",
+      "mobname": "Cookware and more from Carote"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31k7xBka-UL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 20% off",
+      "mobname": "Best offers on FixDerma"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41oUD8XtTtL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 41% off",
+      "mobname": "Amazing Offers on Health Nutrition by HealthKart"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51WU9YqK9lL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 87% off",
+      "mobname": "Made for Amazon - Women's Top, Jeans & more"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41wN8UcVDuL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 57% off",
+      "mobname": "Best Deals on Trolley and Backpack from Mokobara"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41sD98ms0yL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 65% off",
+      "mobname": "Best Of Furnishing"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41YjSD1XPoS._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 70% off",
+      "mobname": "Best Ever Discounts on Office and School Supplies"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41HU4L5PaoL._AC_UF226,226_FMjpg_.jpg",
+      "off": "Up to 77% off",
+      "mobname": "Made for Amazon - T-Shirts, Jeans & more"
+    }
+  ],
+  "elec": [
+    {
+      "img": "https://m.media-amazon.com/images/I/819SRH2DKBL._AC_UY218_.jpg",
+      "size": "OnePlus 108 cm (43 inches) Y Series 4K Ultra HD Smart Android LED TV 43Y1S Pro (Black)",
+      "price": "29,999",
+      "ofprice": "₹39,999",
+      "off": "(25% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81kYODKgalL._AC_UY218_.jpg",
+      "size": "Toshiba 108 cm (43 inches) V Series Full HD Smart Android LED TV 43V35KP (Silver)",
+      "price": "21,999",
+      "ofprice": "₹34,990",
+      "off": "(37% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71arAQvySlL._AC_UY218_.jpg",
+      "size": "LG 80 cm (32 inches) HD Ready Smart LED TV 32LM563BPTC (Dark Iron Gray)",
+      "price": "14,190",
+      "ofprice": "₹21,990",
+      "off": "(35% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71XBYGH19wL._AC_UY218_.jpg",
+      "size": "SANSUI 80 cm (32 inches) HD Ready Smart A+ LED Google TV JSWY32GSHD (Black)",
+      "price": "11,990",
+      "ofprice": "₹21,490",
+      "off": "(44% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71bnSMzWhxL._AC_UY218_.jpg",
+      "size": "coocaa 80 cm (32 inches) Frameless Series HD Ready Smart IPS LED TV 32S3U Pro (Black)",
+      "price": "7,999",
+      "ofprice": "₹36,990",
+      "off": "(78% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81Itairz1YL._AC_UY218_.jpg",
+      "size": "OnePlus 138 cm (55 inches) Y Series 4K Ultra HD Smart Android LED TV 55Y1S Pro (Black)",
+      "price": "39,999",
+      "ofprice": "₹49,999",
+      "off": "(20% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71d5fMDvq9L._AC_UY218_.jpg",
+      "size": "OnePlus 80 cm (32 inches) Y Series HD Ready LED Smart Android TV 32Y1 (Black)",
+      "price": "14,999",
+      "ofprice": "₹19,999",
+      "off": "(25% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71a4ZQNqTiL._AC_UY218_.jpg",
+      "size": "Samsung 80 cm (32 Inches) Wondertainment Series HD Ready LED Smart TV UA32T4340BKXXL (Glossy Black)",
+      "price": "13,990",
+      "ofprice": "₹22,900",
+      "off": "(39% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81oHGrH1PwL._AC_UY218_.jpg",
+      "size": "VW 80 cm (32 inches) Frameless Series HD Ready Android Smart LED TV VW32S (Black)",
+      "price": "7,999",
+      "ofprice": "₹16,999",
+      "off": "(53% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71L-lTQnJiL._AC_UY218_.jpg",
+      "size": "Redmi 80 cm (32 inches) Android 11 Series HD Ready Smart LED TV | L32M6-RA/L32M7-RA (Black)",
+      "price": "13,999",
+      "ofprice": "₹24,999",
+      "off": "(44% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/712am1RDNiL._AC_UY218_.jpg",
+      "size": "Acer 80 cm (32 inches) I Series HD Ready Android Smart LED TV AR32AR2841HDFL (Black)",
+      "price": "11,999",
+      "ofprice": "₹19,990",
+      "off": "(40% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81wxS8abrgL._AC_UY218_.jpg",
+      "size": "Sony Bravia 164 cm (65 inches) 4K Ultra HD Smart LED Google TV KD-65X74K (Black)",
+      "price": "72,990",
+      "ofprice": "₹1,39,900",
+      "off": "(48% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71arAQvySlL._AC_UY218_.jpg",
+      "size": "LG 80 cm (32 inches) HD Ready Smart LED TV 32LM563BPTC (Dark Iron Gray)",
+      "price": "14,190",
+      "ofprice": "₹21,990",
+      "off": "(35% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71NGTvGMypL._AC_UY218_.jpg",
+      "size": "Acer 127 cm (50 inches) I Series 4K Ultra HD Android Smart LED TV AR50AR2851UDFL (Black)",
+      "price": "28,999",
+      "ofprice": "₹40,990",
+      "off": "(29% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81tD7OZ0RXL._AC_UY218_.jpg",
+      "size": "MI 80 cm (32 inches) 5A Series HD Ready Smart Android LED TV L32M7-5AIN (Black)",
+      "price": "13,990",
+      "ofprice": "₹24,999",
+      "off": "(44% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61f1sKQ7FiL._AC_UY218_.jpg",
+      "size": "TCL 100 cm (40 inches) Full HD Certified Android Smart LED TV 40S6505 (Black)",
+      "price": "17,990",
+      "ofprice": "₹40,990",
+      "off": "(56% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71eUw15rVbL._AC_UY218_.jpg",
+      "size": "Samsung 108 cm (43 inches) Crystal 4K Series Ultra HD Smart LED TV UA43AUE60AKLXL (Black)",
+      "price": "29,990",
+      "ofprice": "₹52,900",
+      "off": "(43% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71g3OF4CL9L._AC_UY218_.jpg",
+      "size": "Redmi 108 cm (43 inches) Android 11 Series Full HD Smart LED TV L43M6-RA/L43M7-RA (Black)",
+      "price": "21,999",
+      "ofprice": "₹34,999",
+      "off": "(37% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81tD7OZ0RXL._AC_UY218_.jpg",
+      "size": "MI 80 cm (32 inches) 5A Series HD Ready Smart Android LED TV L32M7-5AIN (Black)",
+      "price": "13,990",
+      "ofprice": "₹24,999",
+      "off": "(44% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81I5oICiIzL._AC_UY218_.jpg",
+      "size": "OnePlus 126 cm (50 inches) Y Series 4K Ultra HD Smart Android LED TV 50Y1S Pro (Black)",
+      "price": "32,999",
+      "ofprice": "₹45,999",
+      "off": "(28% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71TDI5zny4L._AC_UY218_.jpg",
+      "size": "Acer 100 cm (40 inches) P Series Full HD Android Smart LED TV AR40AR2841FDFL (Black)",
+      "price": "16,999",
+      "ofprice": "₹24,990",
+      "off": "(32% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/91OzzQSg47L._AC_UY218_.jpg",
+      "size": "LG 108 cm (43 inches) 4K Ultra HD Smart LED TV 43UQ7500PSF (Ceramic Black)",
+      "price": "31,990",
+      "ofprice": "₹49,990",
+      "off": "(36% off)"
+    }
+  ],
+  "womencloth":[
+    {
+      "img": "https://m.media-amazon.com/images/I/71V0TFm3MsL._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Full Sleeve Blue Solid Women's Denim Jacket",
+      "price": 348,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,499",
+      "off": "(77% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51yhZGitmaL._AC_UL320_.jpg",
+      "a-size-base-plus": "Scott International",
+      "a-size-base-plus 2": "Men's Wind Cheater Jacket -Solid, Branded, Trending Winter wear - Full Sleeve, Polyester, Regular fit, Zippered Jacket",
+      "price": 627,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹2,499",
+      "off": "(75% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81kDI4r4jkL._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Women's Self-design Regular Jacket",
+      "price": 348,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,499",
+      "off": "(77% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41MQXmpMc6L._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Solid Full Sleeve Women's Denim Jacket",
+      "price": 348,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,499",
+      "off": "(77% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61t965dJIiL._AC_UL320_.jpg",
+      "a-size-base-plus": "Alan Jones Clothing",
+      "a-size-base-plus 2": "Women's Cotton Hooded Neck Sweatshirt",
+      "price": 599,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,499",
+      "off": "(60% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71L5eJB35rL._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Women's Tie-Dye Jacket",
+      "price": 348,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,499",
+      "off": "(77% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61WRDFg6EPL._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Full Sleeve Blue Solid Women's Denim Jacket",
+      "price": 348,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,499",
+      "off": "(77% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/610t90I75bL._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Full Sleeve Striped Women Jacket",
+      "price": 398,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,499",
+      "off": "(73% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51Tr337wf9L._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Plue Size Full Sleeve Solid Women Casual Jacket…",
+      "price": 448,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,999",
+      "off": "(78% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81r5ORWyF0L._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Women's Self-Design Regular Jacket",
+      "price": 378,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,399",
+      "off": "(73% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81C2GIoa9mL._AC_UL320_.jpg",
+      "a-size-base-plus": "Cazibe",
+      "a-size-base-plus 2": "Women's Quilted",
+      "price": "1,449",
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹3,399",
+      "off": "(57% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81q6ajCr3QL._AC_UL320_.jpg",
+      "a-size-base-plus": "Cazibe",
+      "a-size-base-plus 2": "Women's Quilted",
+      "price": "1,449",
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹3,399",
+      "off": "(57% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51UAWZRRJ2L._AC_UL320_.jpg",
+      "a-size-base-plus": "JUNEBERRY",
+      "a-size-base-plus 2": "Women Sweatshirt with Hoodies, Fleece Material Full Sleeves Jumper Women Winter Wear, Hooded Neck Regular Fit Long Sleeve Womens Sweatshirt, Winter Wear for Women",
+      "price": 699,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,999",
+      "off": "(65% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/612CHO2gpaL._AC_UL320_.jpg",
+      "a-size-base-plus": "Wear Your Opinion",
+      "a-size-base-plus 2": "Women's Fleece Zipper Hoodie Jacket",
+      "price": 599,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,999",
+      "off": "(70% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71tyPFXDnJL._AC_UL320_.jpg",
+      "a-size-base-plus": "Max",
+      "a-size-base-plus 2": "Women Sweatshirt",
+      "price": 719,
+      "a-size-base 2": "",
+      "ofprice": "₹1,199",
+      "off": "(40% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61jXKWZj+QL._AC_UL320_.jpg",
+      "a-size-base-plus": "AWG ALL WEATHER GEAR",
+      "a-size-base-plus 2": "Womens High Neck Jackets for Winter- Stylish, Trendy, Comfortable Wear, Long Sleeved, Double Tipping Branded Casual Jacket for Women",
+      "price": 838,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹3,999",
+      "off": "(79% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71OLwuLQeyL._AC_UL320_.jpg",
+      "a-size-base-plus": "Cazibe",
+      "a-size-base-plus 2": "Women's Quilted",
+      "price": "1,409",
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹3,399",
+      "off": "(59% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/615qb6rtUOL._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Women's Cotton Twill Full Sleeves Jacket Pack of 2",
+      "price": 598,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,699",
+      "off": "(65% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/5146MZX6GbL._AC_UL320_.jpg",
+      "a-size-base-plus": "CHKOKKO",
+      "a-size-base-plus 2": "Women Winter Sports Windcheater Stylish Zipper Jacket",
+      "price": 799,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹3,330",
+      "off": "(76% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81OI9iuy7PL._AC_UL320_.jpg",
+      "a-size-base-plus": "Max",
+      "a-size-base-plus 2": "Women Sweatshirt",
+      "price": 419,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹699",
+      "off": "(40% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61VSAy90fwL._AC_UL320_.jpg",
+      "a-size-base-plus": "Scott International",
+      "a-size-base-plus 2": "Women's Solid Regular Jacket",
+      "price": 629,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹2,999",
+      "off": "(79% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/818x2jA+v1L._AC_UL320_.jpg",
+      "a-size-base-plus": "Cazibe",
+      "a-size-base-plus 2": "Women's Jacket",
+      "price": "1,489",
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹3,599",
+      "off": "(59% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/41v81tRGEOL._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Full Sleeve Solid Women Long Jacket",
+      "price": 598,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,999",
+      "off": "(70% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61oIA2ltzEL._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Women's Fleece Round Neck Sweatshirt",
+      "price": 329,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,299",
+      "off": "(75% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/615dlp20OKL._AC_UL320_.jpg",
+      "a-size-base-plus": "Alan Jones Clothing",
+      "a-size-base-plus 2": "Women's Cotton Hooded Neck Sweatshirt",
+      "price": 599,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,499",
+      "off": "(60% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51yhZGitmaL._AC_UL320_.jpg",
+      "a-size-base-plus": "Scott International",
+      "a-size-base-plus 2": "Men's Solid Wind Cheater Jacket",
+      "price": 626,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹2,499",
+      "off": "(75% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51JFTg0MaAL._AC_UL320_.jpg",
+      "a-size-base-plus": "Alan Jones Clothing",
+      "a-size-base-plus 2": "Women's Fleece Hooded Hoodie",
+      "price": 649,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,799",
+      "off": "(64% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51JFTg0MaAL._AC_UL320_.jpg",
+      "a-size-base-plus": "Alan Jones Clothing",
+      "a-size-base-plus 2": "Women's Fleece Hooded Hoodie",
+      "price": 649,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,799",
+      "off": "(64% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61dFqHf0ebL._AC_UL320_.jpg",
+      "a-size-base-plus": "Alan Jones Clothing",
+      "a-size-base-plus 2": "Women's Cotton Hooded Hoodie",
+      "price": 499,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,499",
+      "off": "(67% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81nh4Wn-zBL._AC_UL320_.jpg",
+      "a-size-base-plus": "SHAUN",
+      "a-size-base-plus 2": "Women's Fleece Round Neck Sweatshirt (B07HKH25LK_Grey_Pack of 1l).",
+      "price": 764,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹999",
+      "off": "(24% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/610wKosBKsL._AC_UL320_.jpg",
+      "a-size-base-plus": "Veirdo",
+      "a-size-base-plus 2": "Cotton Fleece Oversize Loose Fit Hooded Sweatshirt Full Sleeves Cool & Stylish Graphic Printed Jumper Sweatshirt Winter Wear for Women",
+      "price": 789,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,999",
+      "off": "(61% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71f48WoKT4L._AC_UL320_.jpg",
+      "a-size-base-plus": "Max",
+      "a-size-base-plus 2": "Women Sweatshirt",
+      "price": 599,
+      "a-size-base 2": "",
+      "ofprice": "₹999",
+      "off": "(40% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71B2GcIO9YL._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Women's Self-Design Hooded Jacket",
+      "price": 448,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,499",
+      "off": "(70% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61U2kuXdaSL._AC_UL320_.jpg",
+      "a-size-base-plus": "JUNEBERRY",
+      "a-size-base-plus 2": "Women's Cotton Round Neck Sweatshirt",
+      "price": 449,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,999",
+      "off": "(78% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/31yHh20O94L._AC_UL320_.jpg",
+      "a-size-base-plus": "JUNEBERRY",
+      "a-size-base-plus 2": "Women's Cotton Blend Hooded Neck Hoodies",
+      "price": 499,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,599",
+      "off": "(69% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61JJ-Y9qBFL._AC_UL320_.jpg",
+      "a-size-base-plus": "Ben Martin",
+      "a-size-base-plus 2": "Women's Round Neck Regular Fit Full Sleeve Cotton Polyester Sweat Shirt",
+      "price": 549,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹2,999",
+      "off": "(82% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/713X7V+95iL._AC_UL320_.jpg",
+      "a-size-base-plus": "Cazibe",
+      "a-size-base-plus 2": "Women's Quilted",
+      "price": "1,449",
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹3,399",
+      "off": "(57% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81Sr6sqRptL._AC_UL320_.jpg",
+      "a-size-base-plus": "Cazibe",
+      "a-size-base-plus 2": "womens Women's Jacket",
+      "price": "1,629",
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹3,599",
+      "off": "(55% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51Zn2HkKgeL._AC_UL320_.jpg",
+      "a-size-base-plus": "Puma",
+      "a-size-base-plus 2": "Women Pullover Sweater",
+      "price": "2,149",
+      "a-size-base 2": "",
+      "ofprice": "₹4,299",
+      "off": "(50% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61JIjx+cC+L._AC_UL320_.jpg",
+      "a-size-base-plus": "ADBUCKS",
+      "a-size-base-plus 2": "Winter Wear Jacket Inside Full Black & White Fur & Made by Rich Cotton Fabric with Hoodies for Womens",
+      "price": 929,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,999",
+      "off": "(54% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/816RKKyNrAL._AC_UL320_.jpg",
+      "a-size-base-plus": "Fusefit",
+      "a-size-base-plus 2": "Women Hooded Sweatshirt",
+      "price": 569,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,499",
+      "off": "(62% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81vA-51rsqL._AC_UL320_.jpg",
+      "a-size-base-plus": "Max",
+      "a-size-base-plus 2": "Women Sweater",
+      "price": 539,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹899",
+      "off": "(40% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/71l9shAg06L._AC_UL320_.jpg",
+      "a-size-base-plus": "Max",
+      "a-size-base-plus 2": "Women Jackets",
+      "price": 599,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹999",
+      "off": "(40% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/819Kg2h9ggL._AC_UL320_.jpg",
+      "a-size-base-plus": "Max",
+      "a-size-base-plus 2": "Women Sweater",
+      "price": 959,
+      "a-size-base 2": "",
+      "ofprice": "₹1,199",
+      "off": "(20% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/51JQwkZNHvL._AC_UL320_.jpg",
+      "a-size-base-plus": "Veirdo",
+      "a-size-base-plus 2": "Cotton Fleece Oversize Loose Fit Hooded Sweatshirt Full Sleeves Solid Brown Jumper Sweatshirt Winter Wear for Women",
+      "price": 599,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,999",
+      "off": "(70% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61dgS0zJ0eL._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Women's Self Design Plain Cotton Blouson Jacket",
+      "price": 348,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,499",
+      "off": "(77% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61zkA5k6BrL._AC_UL320_.jpg",
+      "a-size-base-plus": "Veirdo",
+      "a-size-base-plus 2": "Cotton Fleece Regular Fit Hooded Sweatshirt Full Sleeves Doodle Graphic Printed Jumper Sweatshirt for Men/Boys",
+      "price": 789,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,999",
+      "off": "(61% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/81lj0DJdhZL._AC_UL320_.jpg",
+      "a-size-base-plus": "Max",
+      "a-size-base-plus 2": "Women's Solid Hooded Jacket",
+      "price": 539,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹899",
+      "off": "(40% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61UF4yeqIcL._AC_UL320_.jpg",
+      "a-size-base-plus": "FUNDAY FASHION",
+      "a-size-base-plus 2": "Women's Fleece Hooded Neck Hoodie…",
+      "price": 398,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,299",
+      "off": "(69% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61+cw9k80uL._AC_UL320_.jpg",
+      "a-size-base-plus": "DHRUVI TRENDZ",
+      "a-size-base-plus 2": "Tie Dye Print Hoodie Long Sleeve Drawstring Pullover Tops Loose Casual Sweatshirt for Women Top",
+      "price": 279,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,999",
+      "off": "(86% off)"
+    },
+    {
+      "img": "https://m.media-amazon.com/images/I/61IARvYhmnL._AC_UL320_.jpg",
+      "a-size-base-plus": "Alan Jones Clothing",
+      "a-size-base-plus 2": "Women's Cotton Round Neck Sweatshirt",
+      "price": 499,
+      "a-size-base 2": "M.R.P:",
+      "ofprice": "₹1,999",
+      "off": "(75% off)"
+    }
+  ]
+}

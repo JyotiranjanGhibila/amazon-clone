@@ -45,7 +45,7 @@ userRouter.post("/signup", async (req, res) => {
         .status(404)
         .json({ success: false, message: "User not found" });
     }
-
+console.log("uN",user.name)
     const passwordMatch = await bcrypt.compare(pass, user.pass);
 
     if (passwordMatch) {

@@ -1,0 +1,63 @@
+.mobile__section {
+  width: 90%;
+  height: 350px;
+  position: relative;
+  background-color: white;
+  margin-top: 24px;
+}
+.products__boxmobile {
+  display: flex;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 20px;
+  justify-content: space-between;
+ 
+}
+.mobile__img {
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.mobile__section > h2 {
+  width: 40%;
+  margin: 20px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.deal_of_the_day {
+  color: #007185;
+  font-size: 15px;
+  margin-left: 15px;
+}
+.deal_of_the_day:hover {
+  color: rgb(209, 150, 41);
+  border-bottom: 1px solid rgb(209, 150, 41);
+  cursor: pointer;
+}
+.mob__box {
+  width: 33%;
+  margin: 0px 5px 0px 5px;
+  background-color: white;
+}
+.mob__card {
+  display: flex;
+  justify-content: center;
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: -11%;
+}
+.page__btn {
+  width: 35px;
+  height: 80px;
+  background-color: rgb(196, 192, 192);
+  opacity: 0.6;
+}
+.page__btn:hover {
+  border: 3px solid #007185;
+}

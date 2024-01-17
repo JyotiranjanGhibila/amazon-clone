@@ -40,7 +40,7 @@ womenclothRoute.post("/add", async (req, res) => {
     const payload = req.body;
     const products = new womencloth_model(payload);
     await products.save();
-    res.send({ Msg: `product added successfully` });
+    res.status(201).json({ msg: "Product added successfully" });
   } catch (err) {
     console.log(`can't add produc: ${err}`);
   }

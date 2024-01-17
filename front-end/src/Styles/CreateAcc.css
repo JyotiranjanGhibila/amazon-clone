@@ -1,0 +1,144 @@
+.amazon_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.logo {
+  width: 10%;
+}
+.warning__box{
+  width: 24%;
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: rgba(224, 66, 66, 0.02) 0px 1px 3px 0px,
+    rgba(248, 120, 103, 0.15) 0px 0px 0px 1px;
+  border-radius: 5px;
+  
+}
+.warning__box>div{
+  margin: 12px;
+  
+}
+.warning__box>div+div{
+  display: flex;
+  flex-direction: column;
+}
+.warning__box>div+div>span:nth-child(1){
+  font-size: 26px;
+  color: rgb(240, 82, 82);
+}
+
+.account__form {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 5px;
+}
+.account__form_create {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+.account__form > div {
+  width: 91%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* border: 1px solid red; */
+}
+.create__acc {
+  font-size: 33px;
+  font-weight: 400;
+}
+.account__form > div > h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.account__form > div > h3 + input {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 4px;
+  padding: 10px;
+  outline: none;
+}
+.account__form > div > h3 + input:focus {
+  border: 1px solid rgb(235, 147, 15);
+  border-radius: none;
+}
+.account__form > div > h3 + input + h5 {
+  font-size: 13px;
+}
+.msg {
+  font-size: 13px;
+  line-height: 19px;
+  color: #111;
+  font-family: Arial, sans-serif;
+  letter-spacing: 0.1ch;
+}
+.imp {
+  color: #0066c0;
+}
+
+.Create > button {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgb(250, 153, 8);
+  border-radius: 5px;
+  background-color: #e4a03b;
+}
+.Create > button:hover {
+  background-color: #eea435;
+}
+.Createback > button {
+  width: 100%;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #ffecd2 0%,
+    #fce69f 51%,
+    #ffecd2 100%
+  );
+}
+.Createback > button:hover {
+  background-position: right center;
+}
+.register_page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  margin-top: 23px;
+}
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+  .account__form {
+    width: 98%;
+  }
+  .logo {
+    width: 55%;
+  }
+}
