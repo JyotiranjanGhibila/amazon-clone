@@ -1,5 +1,5 @@
 import "../Styles/Filterbar.css";
-import { memo, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
 const Filterbar = () => {
@@ -169,4 +169,4 @@ const Filterbar = () => {
     </div>
   );
 };
-export default memo(Filterbar);
+export default Filterbar;

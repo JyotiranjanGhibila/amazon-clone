@@ -1,4 +1,4 @@
-import React, { memo } from 'react'
+import React from 'react'
 
 import { Carousel } from 'react-responsive-carousel';
 const MiniTV = () => {
@@ -20,4 +20,4 @@ const MiniTV = () => {
   )
 }
 
-export default memo(MiniTV)
+export default MiniTV;

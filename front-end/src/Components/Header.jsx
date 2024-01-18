@@ -1,4 +1,4 @@
-import React, { memo, useContext } from "react";
+import React, {  useContext } from "react";
 import "../Styles/Header.css";
 
 import amazonLogo from "../Asset/amazon.png";
@@ -84,4 +84,4 @@ const Header = () => {
   );
 };
 
-export default memo(Header);
+export default Header;

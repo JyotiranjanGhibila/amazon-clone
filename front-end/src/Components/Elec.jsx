@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { memo } from "react";
 import { getelecdata } from "../Redux/Electronics/action";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
@@ -64,4 +63,4 @@ const Elec = () => {
   );
 };
 
-export default memo(Elec);
+export default Elec;
