@@ -18,7 +18,23 @@ cartRoute.get("/", authenticate, async (req, res) => {
   }
 });
 
-cartRoute.delete("/delete/:id", async (req, res) => {
+cartRoute.patch("/update/:id", async (req, res) => {
+  const itemId = req.params.id;
+  const { qty } = req.body;
+  console.log("body,", req.body);
+  try {
+    await cartModel.findByIdAndUpdate(
+      { _id: itemId },
+      { $set: { qty: qty } },
+      { new: true }
+    );
+    res.send("updated qty");
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+});
+
+cartRoute.delete("/delete/:id", authenticate, async (req, res) => {
   const ItemID = req.params.id;
 
   try {
