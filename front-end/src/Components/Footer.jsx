@@ -1,7 +1,6 @@
 import React from "react";
 import "../Styles/Footer.css";
 import amazonLogo from "../Asset/amazon.png";
-import { memo } from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -123,4 +122,4 @@ const Footer = () => {
   );
 };
 
-export default memo(Footer);
+export default Footer;

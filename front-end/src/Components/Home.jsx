@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React from "react";
 import "../Styles/Home.css";
 import Products from "./Products";
 import Product from "./Product";
@@ -44,4 +44,4 @@ const Home = () => {
   );
 };
 
-export default memo(Home);
+export default Home;

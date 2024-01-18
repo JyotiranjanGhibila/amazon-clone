@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { memo } from "react";
 import { getMobData } from "../Redux/Mobiles/action";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
@@ -63,4 +62,4 @@ const Mobile = () => {
   );
 };
 
-export default memo(Mobile);
+export default Mobile;

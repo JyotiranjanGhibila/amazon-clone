@@ -1,10 +1,11 @@
-import React, { memo, useEffect, useState } from "react";
+import React, {  useEffect, useState } from "react";
 import Styles from "../Styles/Cart.module.css";
 import { get_cart_datas } from "../Redux/Cart/action";
 import { useDispatch, useSelector } from "react-redux";
-import { Button, Flex, useToast } from "@chakra-ui/react";
+import { Flex, useToast } from "@chakra-ui/react";
 import Empty from "./Empty";
 import axios from "axios";
+import CheckoutPage from "../Components/CheckoutPage";
 
 const Cart = () => {
   const [deleteItemId, setDeleteItemId] = useState(null);
@@ -149,9 +150,7 @@ const Cart = () => {
               Subtotal(1 item): ₹ {totalPrice}
               <span>price</span>
             </span>
-            <Button colorScheme="yellow" mt={"10px"}>
-              Procedd to Buy
-            </Button>
+            <CheckoutPage name={"Saree"} amount={600}/>
           </div>
         </Flex>
       )}
@@ -159,4 +158,4 @@ const Cart = () => {
   );
 };
 
-export default memo(Cart);
+export default Cart;

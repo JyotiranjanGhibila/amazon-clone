@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { memo } from "react";
 import "../Styles/Womencloth.css";
 import ReactStars from "react-stars";
 import { useDispatch, useSelector } from "react-redux";
 import { getwomencloth } from "../Redux/Womencloth/action";
-import { Link, NavLink, useLocation, useSearchParams } from "react-router-dom";
+import { NavLink, useLocation, useSearchParams } from "react-router-dom";
 import Filterbar from "./Filterbar";
 // import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 // import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
@@ -82,4 +81,4 @@ const Womencloth = () => {
   );
 };
 
-export default memo(Womencloth);
+export default Womencloth;
