@@ -7,8 +7,10 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Context/AuthContext";
+import { useDispatch, useSelector } from "react-redux";
 
 const Header = () => {
+  const {cart} = useSelector((store) => store.cartdata);
   const { authState } = useContext(AuthContext);
   const userName=localStorage.getItem("name")
   return (
@@ -61,7 +63,7 @@ const Header = () => {
         </div>
 
         <div className="header__cart">
-          <span className="header__One header__count">0</span>
+          <span className="header__One header__count">{cart?.length}</span>
           <ShoppingCartOutlinedIcon
             className="header__cartlogo"
             style={{ fontSize: "33px" }}

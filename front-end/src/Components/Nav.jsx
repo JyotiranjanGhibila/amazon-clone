@@ -12,15 +12,12 @@ import {
   Text,
   Flex,
 } from "@chakra-ui/react";
-import { memo } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { AuthContext } from "../Context/AuthContext";
 const Nav = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const {authState,logoutUser} = useContext(AuthContext)
-  // console.log("isAuttth",authState,logoutUser)
   const userName=localStorage.getItem("name")
-  console.log("un",userName)
   const btnRef = React.useRef();
 
   return (
@@ -100,4 +97,4 @@ const Nav = () => {
   );
 };
 
-export default memo(Nav);
+export default Nav;
