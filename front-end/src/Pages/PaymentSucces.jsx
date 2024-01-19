@@ -1,15 +1,18 @@
-import React from 'react'
-import { useLocation, useSearchParams, } from 'react-router-dom'
-
+import React from "react";
+import { Link, useLocation, useSearchParams } from "react-router-dom";
+import { Box, Button, Flex, Image } from "@chakra-ui/react";
+import PaymentDone from "../Asset/paymentDone.png";
 const PaymentSucces = () => {
-    // const location = useLocation();
-    // const searchParams = new URLSearchParams(location.search);
-    // const payment_id = searchParams.get("payment_id");
-    const [query] = useSearchParams()
-    console.log("ap",query.get("payment_id"))
-  return (
-    <div>PaymentSucces id :  </div>
-  )
-}
+  const [query] = useSearchParams();
 
-export default PaymentSucces
+  return (
+    <Flex alignItems={"center"} flexDirection={"column"}>
+      <Image src={PaymentDone} alt="failed" />
+      <Link to="/">
+        <Button>Continue Shoping</Button>
+      </Link>
+    </Flex>
+  );
+};
+
+export default PaymentSucces;

@@ -71,16 +71,15 @@ const Products = () => {
           {womenprods.map((el, i) => {
             return (
               <div className="products__img" key={i}>
-                
-                  <img src={el.img} alt="img" />
-                  <Link to={el.link}>
+                <img src={el.img} alt="img" />
+                <Link to={el.link}>
                   <span className="products__title">{el.tittle}</span>
                 </Link>
               </div>
             );
           })}
         </div>
-        <span className="seeall">See more</span>
+        <span className="seeall"><Link to="/womencloth"> see more </Link></span>
       </div>
       <div className="products">
         <h2>Up to 60% off | Styles for men</h2>
@@ -89,12 +88,14 @@ const Products = () => {
             return (
               <div className="products__img" key={i}>
                 <img src={el.img} alt="img" />
-                <span className="products__title">{el.tittle}</span>
+                <span className="products__title">
+                  <Link to="/womencloth"> {el.tittle} </Link>
+                </span>
               </div>
             );
           })}
         </div>
-        <span className="seeall">See more</span>
+        <span className="seeall"><Link to="/womencloth"> see more </Link></span>
       </div>
       <div className="products">
         <h2>Home appliances | Up to 55% off</h2>
@@ -103,12 +104,12 @@ const Products = () => {
             return (
               <div className="products__img" key={i}>
                 <img src={el.img} alt="img" />
-                <span className="products__title">{el.tittle}</span>
+                <span className="products__title"><Link to="/womencloth"> {el.tittle} </Link></span>
               </div>
             );
           })}
         </div>
-        <span className="seeall">See more</span>
+        <span className="seeall"><Link to="/womencloth"> see all </Link></span>
       </div>
       <div className="product">
         <h2>Up to 50% off | International brands</h2>
@@ -117,7 +118,7 @@ const Products = () => {
           src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/feb10/XCM_Manual_1530580_2847589_5290763_379x304_en_IN._SY304_CB613701925_.jpg"
           alt="img"
         />
-        <span className="seeall">See more</span>
+        <span className="seeall"><Link to="/womencloth"> see more </Link></span>
       </div>
     </>
   );
