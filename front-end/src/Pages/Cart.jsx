@@ -49,37 +49,38 @@ const Cart = () => {
       const response = await fetch(
         `https://amazon-clone-eight-jade.vercel.app/cart/update/${id}`,
         {
-          method: 'PATCH',
+          method: "PATCH",
           headers: {
-            'Content-Type': 'application/json',
-            'Referrer-Policy': 'no-referrer-when-downgrade',
-            Authorization: localStorage.getItem('token') || '',
+            "Content-Type": "application/json",
+            "Referrer-Policy": "no-referrer-when-downgrade",
+            Authorization: localStorage.getItem("token") || "",
           },
           body: JSON.stringify({ qty: quan + num }),
+          credentials: 'include',
         }
       );
-  
+
       if (!response.ok) {
         const errorMessage = await response.text();
         throw new Error(`Failed to update quantity: ${errorMessage}`);
       }
-  
+
       toast({
-        title: 'Quantity update',
-        description: 'Item price will change according to the quantity',
-        status: 'success',
+        title: "Quantity update",
+        description: "Item price will change according to the quantity",
+        status: "success",
         duration: 1000,
         isClosable: true,
       });
-  
+
       dispatch(get_cart_datas());
     } catch (err) {
-      console.error('Error updating quantity:', err);
-  
+      console.error("Error updating quantity:", err);
+
       toast({
-        title: 'Something went wrong',
-        description: 'Please try again',
-        status: 'error',
+        title: "Something went wrong",
+        description: "Please try again",
+        status: "error",
         duration: 1000,
         isClosable: true,
       });
@@ -107,7 +108,10 @@ const Cart = () => {
             </div>
             {cart?.length > 0 &&
               cart?.map((el, i) => {
-                totalPrice += el.price * el.qty;
+                totalPrice = cart.reduce(
+                  (total, item) => total + item.price * item.qty,
+                  0
+                );
 
                 return (
                   <div className={Styles.Shopingcart__container} key={i}>
