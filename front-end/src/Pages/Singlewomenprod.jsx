@@ -26,7 +26,7 @@ const Singlewomenprod = () => {
   const handleAdd = async (img, title, desc, price) => {
     axios
       .post(
-        `http://localhost:8080/cart/add`,
+        `https://amazon-clone-eight-jade.vercel.app/cart/add`,
         {
           img: img,
           title: title,

@@ -18,7 +18,7 @@ const get_cart_fail = () => {
 export const get_cart_datas = (id) => (dispatch) => {
   dispatch(get_cart_req());
   axios
-    .get(`http://localhost:8080/cart`, {
+    .get(`https://amazon-clone-eight-jade.vercel.app/cart`, {
       headers: {
         Authorization: localStorage.getItem("token"),
       },

@@ -14,7 +14,7 @@ const CreateAcc = () => {
     e.preventDefault();
     const data = { name, mobile, email, pass };
     await axios
-      .post(`http://localhost:8080/user/register`, data)
+      .post(`https://amazon-clone-eight-jade.vercel.app/user/register`, data)
       .then((res) => {
         console.log(res.data);
         navigate("/user/signin");

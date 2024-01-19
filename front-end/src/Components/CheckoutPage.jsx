@@ -8,7 +8,7 @@ const CheckoutPage = ({ name, amount }) => {
     try {
       const {
         data,
-      } = await axios.post(`http://localhost:8080/payment/checkout`, {
+      } = await axios.post(`https://amazon-clone-eight-jade.vercel.app/payment/checkout`, {
         name,
         amount,
       });
@@ -21,7 +21,7 @@ const CheckoutPage = ({ name, amount }) => {
         "description": "Transaction",
         "image": amazonLogo,
         "order_id": data.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
-        "callback_url": "http://localhost:8080/payment/payment-verification",
+        "callback_url": "https://amazon-clone-eight-jade.vercel.app/payment/payment-verification",
         "prefill": {
             "name": "Jyot Ranjan",
             "email": "jyoti.ranjan@example.com",
