@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import { Button } from "@chakra-ui/react";
 import amazonLogo from '../Asset/amazon.svg'
+
 const CheckoutPage = ({ name, amount }) => {
   const handleCheckout = async () => {
     try {
@@ -11,7 +12,8 @@ const CheckoutPage = ({ name, amount }) => {
         name,
         amount,
       });
-      var options = {
+
+      const options = {
         "key": "rzp_test_SClA6pBfJlOMjy", // Enter the Key ID generated from the Dashboard
         "amount": data.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
         "currency": data.currency,
@@ -32,9 +34,8 @@ const CheckoutPage = ({ name, amount }) => {
             "color": "#042333"
         }
     };
-    var rzp1 = new window.Razorpay(options);
+    const rzp1 = new window.Razorpay(options);
     rzp1.open()
-      console.log("ord?", data);
     } catch (err) {
       console.log("err in checkout: ", err);
     }

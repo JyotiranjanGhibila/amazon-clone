@@ -150,7 +150,7 @@ const Cart = () => {
               Subtotal(1 item): ₹ {totalPrice}
               <span>price</span>
             </span>
-            <CheckoutPage name={"Saree"} amount={600}/>
+            <CheckoutPage name={"Saree"} amount={totalPrice}/>
           </div>
         </Flex>
       )}

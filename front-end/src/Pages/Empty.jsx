@@ -1,6 +1,6 @@
 import React from "react";
 
-import emptyCart from "../Asset/cart.jpg";
+import emptyCart from "../Asset/cart.png";
 
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
