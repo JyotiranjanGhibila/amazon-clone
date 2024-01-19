@@ -21,7 +21,7 @@ export const getMobData = (page) => (dispatch) => {
   dispatch(getMobileRequest());
 
   axios
-    .get(`http://localhost:8080/product?category=mob&limit=4&page=${page}`)
+    .get(`https://amazon-clone-eight-jade.vercel.app/product?category=mob&limit=4&page=${page}`)
     .then((res) => {
       dispatch(getMobileSuccess(res.data));
     })

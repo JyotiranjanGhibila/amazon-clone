@@ -22,7 +22,7 @@ export const getwomencloth =
     dispatch(getwomenclothreq());
     
     axios
-      .get(`http://localhost:8080/fashion/cloth`, param)
+      .get(`https://amazon-clone-eight-jade.vercel.app/fashion/cloth`, param)
       .then((res) => {
         dispatch(getwomenclothsuccess(res.data));
       })

@@ -1,9 +1,8 @@
 import React from "react";
-import { Link, useLocation, useSearchParams } from "react-router-dom";
-import { Box, Button, Flex, Image } from "@chakra-ui/react";
+import { Link, useSearchParams } from "react-router-dom";
+import {  Button, Flex, Image } from "@chakra-ui/react";
 import PaymentDone from "../Asset/paymentDone.png";
 const PaymentSucces = () => {
-  const [query] = useSearchParams();
 
   return (
     <Flex alignItems={"center"} flexDirection={"column"}>

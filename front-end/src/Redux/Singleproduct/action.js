@@ -20,7 +20,7 @@ export const get_single_data_fail=()=>{
 
 export const get_single_data=(id)=>(dispatch)=>{
     dispatch(get_single_data_req())
-    axios.get(`http://localhost:8080/fashion/cloth/${id}`)
+    axios.get(`https://amazon-clone-eight-jade.vercel.app/fashion/cloth/${id}`)
     .then((res)=>{
         dispatch(get_single_data_success(res.data))
     })

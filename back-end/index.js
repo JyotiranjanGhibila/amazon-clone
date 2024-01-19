@@ -11,7 +11,13 @@ const { cartRoute } = require("./routes/cart.routes");
 const { productRoute } = require("./routes/product.routes");
 const { checkoutRout } = require("./routes/orders.routes");
 
-app.use(cors());
+const corsOptions = {
+  origin: 'https://amazon-clone-eight-jade.vercel.app', // Update with your frontend origin
+  methods: ['GET', 'POST', 'PATCH', 'DELETE'], // Include PATCH method
+  credentials: true, // If you are using credentials
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 

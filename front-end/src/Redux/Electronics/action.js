@@ -19,7 +19,7 @@ const getfail = () => {
 
 export const getelecdata=(page)=>(dispatch)=>{
     dispatch(getreq())
-    axios.get(`http://localhost:8080/product?category=elec&limit=4&page=${page}`)
+    axios.get(`https://amazon-clone-eight-jade.vercel.app/product?category=elec&limit=4&page=${page}`)
     .then((res)=>{
         dispatch(getsucc(res.data))
     })

@@ -15,7 +15,7 @@ const Singin = () => {
     e.preventDefault();
     const data = { email, pass };
     await axios
-      .post(`http://localhost:8080/user/signup`, data)
+      .post(`https://amazon-clone-eight-jade.vercel.app/user/signup`, data)
       .then((res) => {
         if (res.data.token) {
           loginUser(res.data.token);
