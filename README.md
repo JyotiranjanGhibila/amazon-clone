@@ -1,7 +1,8 @@
-# amazon-clone
+# amazon-clone : https://amazon-clone-jyoti.vercel.app/
 
 Gllimpls of Amazon Clone
-
+## tech stacks :
+HTML5, CSS, JavaScript, React.js , Redux, ContextAPI, Axios , Node.js, MongoDB, Express.js, JWT Auth, REST API (CRUD)
 ![Screenshot Capture - 2024-01-20 - 11-48-01](https://github.com/JyotiranjanGhibila/amazon-clone/assets/107979908/f6c4e1e3-6404-4a20-9c42-692194c3f3b2)
 ![Screenshot Capture - 2024-01-20 - 11-46-20](https://github.com/JyotiranjanGhibila/amazon-clone/assets/107979908/2879c54d-74c0-4935-b6ce-519557568f03)
 ![Screenshot Capture - 2024-01-20 - 11-45-14](https://github.com/JyotiranjanGhibila/amazon-clone/assets/107979908/e5cce387-d418-451b-9bc6-2413612d7d74)
@@ -10,4 +11,3 @@ Gllimpls of Amazon Clone
 ![Screenshot Capture - 2024-01-20 - 11-43-26](https://github.com/JyotiranjanGhibila/amazon-clone/assets/107979908/eb682923-8061-411e-897c-fe09276a4af0)
 ![Screenshot Capture - 2024-01-20 - 11-41-57](https://github.com/JyotiranjanGhibila/amazon-clone/assets/107979908/c7344ec6-579c-4d44-ab10-44d3e78c83af)
 ![Screenshot Capture - 2024-01-20 - 11-41-35](https://github.com/JyotiranjanGhibila/amazon-clone/assets/107979908/4550bfce-b34b-4395-9706-e9a0dfd62170)
-![3d-plastic-people-women-with-shopping-cart-and-loudspeaker-fooling-around](https://github.com/JyotiranjanGhibila/amazon-clone/assets/107979908/6613625b-6e56-4b6e-bd68-40314eb124c7)
