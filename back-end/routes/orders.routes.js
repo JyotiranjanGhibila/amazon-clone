@@ -48,7 +48,7 @@ checkoutRout.post("/payment-verification", async (req, res) => {
       }
     );
     res.redirect(
-      `https://amazon-clone-eight-jade.vercel.app/payment/success?payment_id=${razorpay_payment_id}`
+      `https://amazon-clone-eight-jade.vercel.app/success?payment_id=${razorpay_payment_id}`
     );
     return;
   } else {
