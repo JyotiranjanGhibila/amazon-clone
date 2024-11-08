@@ -48,11 +48,11 @@ checkoutRout.post("/payment-verification", async (req, res) => {
       }
     );
     res.redirect(
-      `https://amazon-clone-eight-jade.vercel.app/payment/success?payment_id=${razorpay_payment_id}`
+      `https://amazon-clone-jyoti.vercel.app/payment/success?payment_id=${razorpay_payment_id}`
     );
     return;
   } else {
-    res.redirect("https://amazon-clone-eight-jade.vercel.app/payment/failed");
+    res.redirect("https://amazon-clone-jyoti.vercel.app/payment/failed");
     return;
   }
 });
