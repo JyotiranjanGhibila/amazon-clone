@@ -12,7 +12,7 @@ const { productRoute } = require("./routes/product.routes");
 const { checkoutRout } = require("./routes/orders.routes");
 
 const corsOptions = {
-  origin: 'https://amazon-clone-eight-jade.vercel.app', // Update with your frontend origin
+  origin: 'https://amazon-clone-jyoti.vercel.app/', // Update with your frontend origin
   methods: ['GET', 'POST', 'PATCH', 'DELETE'], // Include PATCH method
   credentials: true, // If you are using credentials
 };
